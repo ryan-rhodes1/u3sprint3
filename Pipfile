@@ -12,6 +12,8 @@ jinja2 = "*"
 tweepy = "*"
 scikit-learn = "*"
 numpy = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 
