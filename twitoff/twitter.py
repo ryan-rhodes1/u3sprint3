@@ -41,7 +41,7 @@ def add_or_update_user(username):
             tweet_embeddings= vectorize_tweet(tweet.full_text)
             db_tweet = Tweet(
                 id=tweet.id,
-                text=tweet.full_text[:300],
+                text=tweet.full_text,
                 vect=tweet_embeddings
                 )
             db_user.tweets.append(db_tweet)

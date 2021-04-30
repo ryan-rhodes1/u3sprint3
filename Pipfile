@@ -4,6 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+python-dotenv = "*"
+spacy = "*"
+flask = "*"
+flask-sqlalchemy = "*"
+jinja2 = "*"
+tweepy = "*"
+scikit-learn = "*"
+numpy = "*"
 
 [dev-packages]
 
